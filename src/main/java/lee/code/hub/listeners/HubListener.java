@@ -61,7 +61,13 @@ public class HubListener implements Listener {
     public void onHubLeafDecay(LeavesDecayEvent e) { e.setCancelled(true); }
 
     @EventHandler
-    public void onHubDamage(EntityDamageEvent e) { e.setCancelled(true); }
+    public void onHubDamage(EntityDamageEvent e) {
+        if (e.getEntity() instanceof Player) {
+            e.setCancelled(true);
+        } else if (!e.getCause().equals(EntityDamageEvent.DamageCause.VOID)) {
+            e.setCancelled(true);
+        }
+    }
 
     @EventHandler
     public void onHubBlockPlace(BlockPlaceEvent e) {
