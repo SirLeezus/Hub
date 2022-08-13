@@ -1,0 +1,10 @@
+name: Hub
+version: '${project.version}'
+main: lee.code.hub.Hub
+api-version: 1.19
+depend: [GoldmanCore, PermissionManager]
+commands:
+  setspawn:
+    description: Sets the hub spawn.
+    permission: hub.command.setspawn
+    usage: "/setspawn"
