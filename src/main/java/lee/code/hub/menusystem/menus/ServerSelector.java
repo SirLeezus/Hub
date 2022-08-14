@@ -1,7 +1,6 @@
 package lee.code.hub.menusystem.menus;
 
 import lee.code.core.util.bukkit.BukkitUtils;
-import lee.code.hub.Hub;
 import lee.code.hub.lists.Lang;
 import lee.code.hub.menusystem.Menu;
 import lee.code.hub.menusystem.PlayerMU;
@@ -51,15 +50,15 @@ public class ServerSelector extends Menu {
         setFillerGlass();
 
         ItemMeta advancementServerMeta = advancementServer.getItemMeta();
-        BukkitUtils.setItemLore(advancementServerMeta, Lang.SERVER_SELECTOR_ADVANCEMENT_LORE.getString(new String[] { String.valueOf(Hub.getPlugin().getData().getServerOnlinePlayers("advancement")) }));
+        BukkitUtils.setItemLore(advancementServerMeta, Lang.SERVER_SELECTOR_ADVANCEMENT_LORE.getString(new String[] { String.valueOf(BukkitUtils.getServerPlayerCount("advancement")) }));
         advancementServer.setItemMeta(advancementServerMeta);
 
         ItemMeta chaosServerItemMeta = chaosServer.getItemMeta();
-        BukkitUtils.setItemLore(chaosServerItemMeta, Lang.SERVER_SELECTOR_CHAOS_LORE.getString(new String[] { String.valueOf(Hub.getPlugin().getData().getServerOnlinePlayers("chaos")) }));
+        BukkitUtils.setItemLore(chaosServerItemMeta, Lang.SERVER_SELECTOR_CHAOS_LORE.getString(new String[] { String.valueOf(BukkitUtils.getServerPlayerCount("chaos")) }));
         chaosServer.setItemMeta(chaosServerItemMeta);
 
         ItemMeta vanillaServerItemMeta = vanillaServer.getItemMeta();
-        BukkitUtils.setItemLore(vanillaServerItemMeta, Lang.SERVER_SELECTOR_VANILLA_LORE.getString(new String[] { String.valueOf(Hub.getPlugin().getData().getServerOnlinePlayers("vanilla")) }));
+        BukkitUtils.setItemLore(vanillaServerItemMeta, Lang.SERVER_SELECTOR_VANILLA_LORE.getString(new String[] { String.valueOf(BukkitUtils.getServerPlayerCount("vanilla"))  }));
         vanillaServer.setItemMeta(vanillaServerItemMeta);
 
         inventory.setItem(10, advancementServer);

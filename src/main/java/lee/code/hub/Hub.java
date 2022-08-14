@@ -32,8 +32,8 @@ public class Hub extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        databaseManager.closeConnection();
         BukkitUtils.kickOnlinePlayers(Lang.SERVER_RESTART.getComponent(null));
+        databaseManager.closeConnection();
     }
 
     private void registerCommands() {

@@ -12,7 +12,7 @@ public enum Lang {
     COMMAND_SETSPAWN_MAIN_SUCCESSFUL("&aYou have successfully set the main spawn in world &b{0}&a!"),
     ERROR_NOT_CONSOLE_COMMAND("&cThis command does not work in console."),
     TABLIST_HEADER("&#228B22▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n&#4dc462&lJourney Hub\n&#228B22▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"),
-    TABLIST_FOOTER("\n&#228B22&lOnline&7: &#4dc462{0}"),
+    TABLIST_FOOTER("\n&#228B22&lOnline Network&7: &#4dc462{0}"),
     MENU_SELECT_SERVER_TITLE("&e&lSelect Server"),
     CONNECTING("&6Connecting you to server &e{0}&6..."),
     SERVER_RESTART("&aThe hub is restarting! Journey will be back online soon!"),
@@ -47,13 +47,13 @@ public enum Lang {
                     "\n&9▬ &7PvP enabled" +
                     "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"),
     SERVER_SELECTOR_ADVANCEMENT_LORE(
-            "&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" +
+            "&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" +
                     "\n&6&lServer Info" +
                     "\n&9▬ &aOnline&7: &2{0}/100" +
                     "\n&9▬ &aVersion&7: &21.19.2" +
                     "\n&9▬ &aType&7: &2Survival" +
                     "\n&9▬ &aReleased&7: &28-2-2021" +
-                    "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" +
+                    "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" +
                     "\n&6&lFeatures" +
                     "\n&9▬ &7Griefing is not allowed" +
                     "\n&9▬ &7Advancement ranking system" +
@@ -68,7 +68,7 @@ public enum Lang {
                     "\n&9▬ &7Mob hat drops" +
                     "\n&9▬ &7Mob head drops" +
                     "\n&9▬ &7Mystery boxes" +
-                    "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"),
+                    "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"),
 
     ;
 
