@@ -14,7 +14,6 @@ public enum Lang {
     TABLIST_HEADER("&#228B22▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n&#4dc462&lJourney Hub\n&#228B22▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"),
     TABLIST_FOOTER("\n&#228B22&lOnline Network&7: &#4dc462{0}"),
     MENU_SELECT_SERVER_TITLE("&e&lSelect Server"),
-    CONNECTING("&6Connecting you to server &e{0}&6..."),
     SERVER_RESTART("&aThe hub is restarting! Journey will be back online soon!"),
     SERVER_SELECTOR_CHAOS_LORE(
             "&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" +
@@ -38,12 +37,12 @@ public enum Lang {
                     "\n&9▬ &aOnline&7: &2{0}/100" +
                     "\n&9▬ &aVersion&7: &21.19.2" +
                     "\n&9▬ &aType&7: &2Survival" +
-                    "\n&9▬ &aReleased&7: &cComing soon!" +
+                    "\n&9▬ &aReleased&7: &28-15-2022" +
                     "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" +
                     "\n&6&lFeatures" +
                     "\n&9▬ &7Griefing is allowed" +
                     "\n&9▬ &7No claiming system" +
-                    "\n&9▬ &7No commands" +
+                    "\n&9▬ &7Keep inventory enabled" +
                     "\n&9▬ &7PvP enabled" +
                     "\n&9▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"),
     SERVER_SELECTOR_ADVANCEMENT_LORE(
